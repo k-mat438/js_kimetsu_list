@@ -1,0 +1,34 @@
+.characters-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  padding: 0 30px;
+}
+.radio-group {
+  margin: 20px 0;
+  text-align: center;
+}
+.radio-group label {
+  margin-right: 10px;
+}
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.character-image {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.character-name {
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+.character-description {
+  margin-top: 5px;
+}
