@@ -1,0 +1,68 @@
+body {
+  background-image: url('https://www.ufotable.com/kmt_wallpaper/img/bg02.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  padding: 100px 0; 
+  font-weight: bolder;
+  text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
+.characters-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  padding: 0 30px;
+}
+.radio-group {
+  margin: 20px 0;
+  text-align: center;
+}
+.radio-group label {
+  margin-right: 20px;
+  font-size: 20px;
+  color: white;
+}
+.character-card {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #e8dedeac;
+  text-align: center;
+}
+.character-image {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.character-name {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #1b1313;
+}
+.character-category {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.character-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+#loading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
